@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-50">
       <div className="w-full text-black">
         <div className="mx-6 md:mx:18 lg:mx-32 py-8">
           <h1 className="font font-bold text-xl lg:text-3xl font-sans mb-3 flex justify-center mx-auto">
@@ -23,7 +23,7 @@ const Services = () => {
       <div className="md:flex justify-center gap-14 items-center pb-16 mx-3">
         <Image
           src={"/import.jpeg"}
-          width={400}
+          width={300}
           height={200}
           alt="Image"
           className="mb-2 md:mb-0 md:flex rounded-md"
@@ -67,8 +67,8 @@ const Services = () => {
           </button>
         </div>
         <Image
-          src={"/taxi.jpg"}
-          width={400}
+          src={"/taxi1.png"}
+          width={300}
           height={200}
           alt="Image"
           className="md:flex rounded-md"
@@ -76,8 +76,8 @@ const Services = () => {
       </div>
       <div className="md:flex justify-center gap-14 items-center pb-16 mx-3">
         <Image
-          src={"/realstate.jpg"}
-          width={400}
+          src={"/realstateq.png"}
+          width={300}
           height={200}
           alt="Image"
           className="mb-2 md:mb-0 md:flex rounded-md"
@@ -121,8 +121,8 @@ const Services = () => {
           </button>
         </div>
         <Image
-          src={"/education.png"}
-          width={400}
+          src={"/Educational1.png"}
+          width={300}
           height={200}
           alt="Image"
           className="md:flex rounded-md"

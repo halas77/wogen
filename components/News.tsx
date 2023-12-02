@@ -1,19 +1,19 @@
 "use client";
 import Image from "next/image";
-import { food_items } from "@/constants";
+import { news } from "@/constants";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
 const News = () => {
   return (
-    <div className="w-full text-slate-900 bg-gray-50">
+    <div className="w-full text-slate-900 bg-gray-100">
       <div className="mx-4 md:mx:18 lg:mx-24 py-8">
         <h1 className="font-bold text-2xl font-sans text-slate-950 mb-5">
           Latest <span className="px-3 text-white bg-orange-500">News</span>
         </h1>
         <div className="">
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
-            {food_items.map((item) => (
+            {news.map((item) => (
               <div
                 key={item.title}
                 className="bg-gray-50 shadow-xl my-4 pb-2 flex flex-col mx-auto text-center hover:bg-gray-100 ease-in-out duration-300"

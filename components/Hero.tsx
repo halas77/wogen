@@ -15,7 +15,7 @@ const heroContent = {
 
 const Hero = () => {
   return (
-    <section className="md:mt-28 mt-20 md:py-8 md:px-10 max-sm:py-10 bg-white">
+    <section className="md:mt-28 lg:pb-16 mt-20 md:py-8 md:px-10 max-sm:py-10 bg-white">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="lg:w-5/12 mb:10 lg:mb-0">
               <span className="inline-block font-sans text-heading font-semibold relative mb-7 before:content-['']  before:bg-white before:absolute before:w-2/3 before:bottom-0 before:z-[-1] before:left-0 before:top-0">
-                <span className="border-b py-1 border-orange-600">
+                <span className="border-b py-1 border-orange-400">
                   Empowering Ventures{" "}
                 </span>{" "}
                 Amplifying Success.
@@ -44,40 +44,41 @@ const Hero = () => {
               )}
 
               <div className="flex max-md:flex-col md:space-x-3 text-center ">
+              <Link
+                  href="/"
+                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  bg-orange-400 text-slate-50 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-orange-300 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
+                >
+                  About us
+                </Link>
                 <Link
                   href="/"
-                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  border-orange-600 text-slate-900 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-sky-100 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
+                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  border-orange-400 text-slate-900 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-orange-300 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
                 >
                   Contact us
                 </Link>
               </div>
             </div>
 
-            <div className="lg:w-6/12 space-y-2 max-lg:mt-3 mb-4 md:mb-0">
-              <div className="grid grid-cols-2 col-span-1 gap-2">
+            <div className="lg:w-6/12 space-y-2 max-lg:mt-3 flex justify-center items-center">
+              <div className="grid grid-cols-2 col-span-2 gap-5 justify-center items-center bg-orange-100 rounded-full h-[420px] w-[420px] border p-5">
                 <img
                   className="object-cover w-full h-full rounded-lg"
-                  src="/taxi.jpg"
+                  src="/ie3.png"
+                  alt="/"
+                />
+                <img
+                  className="row-span-1 object-cover w-full h-full rounded-lg"
+                  src="/realstateq.png"
+                  alt="/"
+                />
+                <img
+                  className="row-span-1 object-cover w-full h-full rounded-lg"
+                  src="/taxi1.png"
                   alt="/"
                 />
                 <img
                   className="object-cover w-full h-full rounded-lg"
-                  src="/taxi.jpg"
-                  alt="/"
-                />{" "}
-                <img
-                  className="object-cover w-full h-full rounded-lg"
-                  src="/taxi.jpg"
-                  alt="/"
-                />
-                <img
-                  className="row-span-2 object-cover w-full h-full rounded-lg"
-                  src="/coffee.jpg"
-                  alt="/"
-                />
-                <img
-                  className="object-cover w-full h-full rounded-lg"
-                  src="/import.jpeg"
+                  src="/educationals.png"
                   alt="/"
                 />
               </div>
