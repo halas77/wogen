@@ -10,8 +10,6 @@ export const nav_links = [
 
 // Services
 
-
-
 export const wegen_data = [
   {
     img: "/pool.png",
@@ -43,17 +41,20 @@ export const wegen_data = [
 
 export const news = [
   {
+    id: 1,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
   {
+    id: 2,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
 
   {
+    id: 3,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
@@ -64,81 +65,91 @@ export const news = [
 
 export const news_page = [
   {
+    id: 1,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
   {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
-  },
-
-  {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
-  },
-  {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
-  },
-  {
+    id: 2,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
 
   {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
-  }, {
+    id: 3,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
   {
+    id: 4,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
+  },
+  {
+    id: 5,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
 
   {
+    id: 6,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
+  },
+  {
+    id: 7,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
+  },
+  {
+    id: 8,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
+  },
+
+  {
+    id: 9,
     img: "/import.jpeg",
     title: "Sample Message",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam dolores sequi molestiae blanditiis deleniti beatae, repudiandae corporis eum soluta ratione esse? Distinctio totam asperiores optio iusto eos velit assumenda unde eius voluptates esse recusandae illo quidem ex soluta tempora inventore repellendus odio nostrum aspernatur molestiae, excepturi perspiciatis.  ",
   },
 ];
 
-
 // Home Gallary
 
 export const gallary = [
   {
+    id: 1,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
   {
+    id: 2,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
 
   {
+    id: 3,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
   {
+    id: 4,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
 ];
 
@@ -146,53 +157,53 @@ export const gallary = [
 
 export const gallary_page = [
   {
+    id: 1,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
   {
+    id: 2,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
-  },
-
-  {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
-  },
-  {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
-  },
-  {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-  },
-  {
-    img: "/import.jpeg",
-    title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
 
   {
+    id: 3,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
-
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
   {
+    id: 4,
     img: "/import.jpeg",
     title: "Sample Message",
-    desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam"
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
+  },
+  {
+    id: 5,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
+  },
+  {
+    id: 6,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
+  },
 
+  {
+    id: 7,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
+  },
+  {
+    id: 8,
+    img: "/import.jpeg",
+    title: "Sample Message",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.quaerat distinctio aperiam",
   },
 ];
-
-

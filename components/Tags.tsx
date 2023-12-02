@@ -1,4 +1,5 @@
 import { gallary } from "@/constants";
+import Link from "next/link";
 import React from "react";
 
 const Tags = () => {
@@ -11,11 +12,11 @@ const Tags = () => {
           </h1>
         </div>
       </div>
-      <div className="flex p-4 pb-10 items-center justify-center">
+      <div className="flex p-2 pb-10 items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {gallary.map((item, index) => (
-            <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover-black/30 transition-shadow">
-              <div className="h-72 w-72">
+            <div key={item.id} className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover-black/30 transition-shadow">
+              <div className="h-72 md:w-72">
                 <img
                   className="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500"
                   src={item.img}
@@ -29,6 +30,13 @@ const Tags = () => {
                   {" "}
                   {item.desc}
                 </p>
+                <Link href="/gallary" >
+                <button className="rounded-full bg-orange-600 py-2 px-3.5 text-sm capitalize text-white">
+                  {" "}
+                  See more
+                </button>
+                </Link>
+
               </div>
             </div>
           ))}

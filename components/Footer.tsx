@@ -52,16 +52,16 @@ const Footer = () => {
                 About Wogen
               </Link>
               <Link
-                href="/projects"
+                href="/gallary"
                 className="py-2 text-sm hover:text-gray-200"
               >
-                Our Works
+                Gallary
               </Link>
               <Link
-                href="/services"
+                href="/news"
                 className="py-2 text-sm hover:text-gray-200"
               >
-                Services
+                News
               </Link>
             </ul>
           </div>

@@ -22,7 +22,7 @@ const Services = () => {
         </div>
         {news_page.map((item, index) => (
           <div
-            key={item.title}
+            key={item.id}
             className="md:flex justify-center gap-14 items-center pb-16 mx-3"
           >
             <Image

@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { news } from "@/constants";
 import Link from "next/link";
-import { FaArrowRight } from "react-icons/fa6";
 
 const News = () => {
   return (
@@ -15,7 +14,7 @@ const News = () => {
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
             {news.map((item) => (
               <div
-                key={item.title}
+                key={item.id}
                 className="bg-gray-50 shadow-xl my-4 pb-2 flex flex-col mx-auto text-center hover:bg-gray-100 ease-in-out duration-300"
               >
                 <Image
@@ -32,7 +31,7 @@ const News = () => {
                   {item.desc}
                 </p>
                 <button className="my-5 flex justify-center items-center mx-auto border bg-orange-600 hover:bg-orange-800 text-slate-50 duration-300 ease-in-out rounded-lg px-4 py-2 text-sm">
-                  <Link href="/">Read more</Link>
+                  <Link href="/news">Read more</Link>
                 </button>
               </div>
             ))}
