@@ -8,7 +8,7 @@ const News = () => {
     <div className="w-full text-slate-900 bg-gray-100">
       <div className="mx-4 md:mx:18 lg:mx-24 py-8">
         <h1 className="font-bold text-2xl font-sans text-slate-950 mb-5">
-          Latest <span className="px-3 text-white bg-orange-500">News</span>
+          Latest <span className="px-3 text-white bg-[#cd9c61]">News</span>
         </h1>
         <div className="">
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
@@ -30,7 +30,7 @@ const News = () => {
                 <p className="text-gray-600 font-sans text-sm px-2">
                   {item.desc}
                 </p>
-                <button className="my-5 flex justify-center items-center mx-auto border bg-orange-600 hover:bg-orange-800 text-slate-50 duration-300 ease-in-out rounded-lg px-4 py-2 text-sm">
+                <button className="my-5 flex justify-center items-center mx-auto border bg-[#cd9c61] hover:bg-orange-800 text-slate-50 duration-300 ease-in-out rounded-lg px-4 py-2 text-sm">
                   <Link href="/news">Read more</Link>
                 </button>
               </div>

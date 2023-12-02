@@ -12,9 +12,9 @@ const Gallary = () => {
         transition={{ duration: 1, delay: 0 }}
       >
         <div className="mt-20 mx-4 md:mx:18 lg:mx-32 py-12">
-          <h1 className="font font-bold text-3xl font-sans mb-10">
+          <h1 className="font font-bold text-2xl font-sans mb-10">
             OUR{" "}
-            <span className="font-sans border-b bg-orange-600 px-1 text-white">
+            <span className="font-sans border-b bg-[#cd9c61] px-1 text-white">
               Gallary
             </span>
           </h1>
@@ -22,7 +22,7 @@ const Gallary = () => {
           <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {gallary_page.map((item) => (
               <div key={item.id} className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover-black/30 transition-shadow">
-                <div className="h-72 w-72">
+                <div className="h-72 md:w-72">
                   <img
                     className="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500"
                     src={item.img}

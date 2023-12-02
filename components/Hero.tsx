@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="lg:w-5/12 mb:10 lg:mb-0">
               <span className="inline-block font-sans text-heading font-semibold relative mb-7 before:content-['']  before:bg-white before:absolute before:w-2/3 before:bottom-0 before:z-[-1] before:left-0 before:top-0">
-                <span className="border-b py-1 border-orange-400">
+                <span className="border-b py-1 border-[#cd9c61]">
                   Empowering Ventures{" "}
                 </span>{" "}
                 Amplifying Success.
@@ -46,13 +46,13 @@ const Hero = () => {
               <div className="flex max-md:flex-col md:space-x-3 text-center ">
                 <Link
                   href="/about"
-                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  bg-orange-400 text-slate-50 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-orange-300 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
+                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  bg-[#cd9c61] text-slate-50 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-orange-300 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
                 >
                   About us
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  border-orange-400 text-slate-900 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-orange-300 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
+                  className="text-[16px] max-md:mb-3 py-3 px-10 max-md:text-lg  border-[#cd9c61] text-slate-900 font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-orange-300 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
                 >
                   Contact us
                 </Link>

@@ -31,7 +31,7 @@ const Tags = () => {
                   {item.desc}
                 </p>
                 <Link href="/gallary" >
-                <button className="rounded-full bg-orange-600 py-2 px-3.5 text-sm capitalize text-white">
+                <button className="rounded-full bg-[#cd9c61] py-2 px-3.5 text-sm capitalize text-white">
                   {" "}
                   See more
                 </button>

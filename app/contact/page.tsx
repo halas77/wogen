@@ -15,7 +15,7 @@ const Contact = () => {
         transition={{ duration: 1, delay: 0 }}
       >
         <div className="mx-4 md:mx:24 lg:mx-32 my-12">
-          <h1 className="text-orange-600 font font-bold text-2xl font-sans mb-10">
+          <h1 className="text-[#cd9c61] font font-bold text-2xl font-sans mb-10">
             CONTACT US
           </h1>
           <div className="md:flex gap- justify-start items-start">
@@ -31,10 +31,10 @@ const Contact = () => {
               </Link>
             </div>
             <div className="">
-              <div className="mb-5 bg-orange-100 rounded-lg px-4 flex items-center h-28">
+              <div className="mb-5 bg-[fff8f0] rounded-lg px-4 flex items-center h-28">
                 <div className="bg-orange-50 p-3 rounded-full">
                   <i className="text-slate-900">
-                    <TiLocation size={28} className="text-orange-600" />{" "}
+                    <TiLocation size={28} className="text-[#cd9c61]" />{" "}
                   </i>
                 </div>
                 <div className="px-5">
@@ -47,10 +47,10 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="mb-5 bg-orange-100 rounded-lg px-4 flex items-center h-28">
+              <div className="mb-5 bg-[fff8f0] rounded-lg px-4 flex items-center h-28">
                 <div className="bg-orange-50 p-3 rounded-full">
                   <i className="text-slate-900">
-                    <MdEmail size={28} className="text-orange-600" />{" "}
+                    <MdEmail size={28} className="text-[#cd9c61]" />{" "}
                   </i>
                 </div>
                 <div className="px-5">
@@ -63,10 +63,10 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="mb-5 bg-orange-100 rounded-lg px-4 flex items-center h-28">
+              <div className="mb-5 bg-[fff8f0] rounded-lg px-4 flex items-center h-28">
                 <div className="bg-orange-50 p-3 rounded-full">
                   <i className="text-slate-900">
-                    <MdCall size={28} className="text-orange-600" />{" "}
+                    <MdCall size={28} className="text-[#cd9c61]" />{" "}
                   </i>
                 </div>
                 <div className="px-5">
@@ -80,10 +80,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="mb-5 bg-orange-100 rounded-lg p-4 flex items-center h-28 ">
+              <div className="mb-5 bg-[fff8f0] rounded-lg p-4 flex items-center h-28 ">
                 <div className="bg-orange-50 p-3 rounded-full">
                   <i className="text-slate-900">
-                    <MdShare size={25} className="text-orange-600"/>{" "}
+                    <MdShare size={25} className="text-[#cd9c61]"/>{" "}
                   </i>
                 </div>
                 <div className="p-5">
@@ -97,7 +97,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                     >
                       <div className="text-gray-700 hover:text-gray-800 ease-in-out duration-300">
-                        <FaFacebook size={23} className="text-orange-600" />
+                        <FaFacebook size={23} className="text-[#cd9c61]" />
                       </div>
                     </Link>
                     <Link
@@ -106,7 +106,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                     >
                       <div className="text-gray-700 hover:text-gray-800 ease-in-out duration-300">
-                        <FaInstagram size={23} className="text-orange-600" />
+                        <FaInstagram size={23} className="text-[#cd9c61]" />
                       </div>
                     </Link>
                     <Link
@@ -115,7 +115,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                     >
                       <div className="text-gray-700 hover:text-gary-800 ease-in-out duration-300">
-                        <FaTelegram size={23} className="text-orange-600" />
+                        <FaTelegram size={23} className="text-[#cd9c61]" />
                       </div>
                     </Link>
 
@@ -125,7 +125,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                     >
                       <div className="text-gray-700 hover:text-gray-800 ease-in-out duration-300">
-                        <FaTiktok size={23} className="text-orange-600" />
+                        <FaTiktok size={23} className="text-[#cd9c61]" />
                       </div>
                     </Link>
                   </div>

@@ -42,8 +42,8 @@ const Navbar = () => {
                       href={item.href}
                       className={
                         pathname === item.href
-                          ? "text-orange-600  font-bold uppercase"
-                          : "text-orange-600 hover:text-orange-600 hover:font-semibold ease-in-out duration-300 font-sans uppercase"
+                          ? "text-orange-400  font-bold uppercase"
+                          : "text-[#e2aa6d] hover:text-orange-400 hover:font-semibold ease-in-out duration-300 font-sans uppercase"
                       }
                     >
                       {item.label}
@@ -55,16 +55,16 @@ const Navbar = () => {
             <div className="font-sans text-sm">
               <div className="hidden lg:flex gap-4">
                 <Link href={"/"} className="flex gap-3 justify-start items-center">
-                  <FaFacebook size={21} className="text-orange-500 hover:text-orange-700" />
+                  <FaFacebook size={21} className="text-[#cd9c61] hover:text-orange-400" />
                 </Link>
                 <Link href={"/"} className="flex gap-3 justify-center items-centerd">
-                  <FaLinkedin size={21} className="text-orange-500 hover:text-orange-700" />
+                  <FaLinkedin size={21} className="text-[#cd9c61] hover:text-orange-400" />
                 </Link>
                 <Link href={"/"} className="flex gap-3 justify-start items-center">
-                  <FaXTwitter size={21} className="text-orange-500 hover:text-orange-700" />
+                  <FaXTwitter size={21} className="text-[#cd9c61] hover:text-orange-400" />
                 </Link>
                 <Link href={"/"} className="flex gap-3 justify-start items-center">
-                  <FaTelegram size={21} className="text-orange-500 hover:text-orange-700" />
+                  <FaTelegram size={21} className="text-[#cd9c61] hover:text-orange-400" />
                 </Link>
               </div>
               <button className="block lg:hidden" onClick={navHandle}>

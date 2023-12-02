@@ -16,7 +16,7 @@ const Services = () => {
         <div className="w-full text-black">
           <div className="mx-6 md:mx:18 lg:mx-32 py-8">
             <h1 className="font-bold text-2xl font-sans text-slate-950 mb-5">
-              Latest <span className="px-3 text-white bg-orange-500">News</span>
+              Latest <span className="px-3 text-white bg-[#cd9c61]">News</span>
             </h1>
           </div>
         </div>

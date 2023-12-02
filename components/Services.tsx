@@ -41,7 +41,7 @@ const Services = () => {
             velit ut sed similique fugit ipsa consequatur. Iure porro dolorum
             aliquid fuga?
           </p>
-          <button className="mx-auto md:mx-0 flex justify-center items-center border bg-orange-600 hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
+          <button className="mx-auto md:mx-0 flex justify-center items-center border bg-[#cd9c61] hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
             <Link href="/">Read more</Link>
             <span className="ml-2 flex justify-center items-center">
               <FaArrowRight size={12} className="text-white" />
@@ -62,7 +62,7 @@ const Services = () => {
             velit ut sed similique fugit ipsa consequatur. Iure porro dolorum
             aliquid fuga?
           </p>
-          <button className="mx-auto md:mx-0 flex justify-center items-center border bg-orange-600 hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
+          <button className="mx-auto md:mx-0 flex justify-center items-center border bg-[#cd9c61] hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
             <Link href="/">Read more</Link>
             <span className="ml-2 flex justify-center items-center">
               <FaArrowRight size={12} className="text-white" />
@@ -97,7 +97,7 @@ const Services = () => {
             velit ut sed similique fugit ipsa consequatur. Iure porro dolorum
             aliquid fuga?
           </p>
-          <button className="mx-auto md:mx-0 flex justify-center items-center border bg-orange-600 hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
+          <button className="mx-auto md:mx-0 flex justify-center items-center border bg-[#cd9c61] hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
             <Link href="/">Read more</Link>
             <span className="ml-2 flex justify-center items-center">
               <FaArrowRight size={12} className="text-white" />
@@ -118,7 +118,7 @@ const Services = () => {
             velit ut sed similique fugit ipsa consequatur. Iure porro dolorum
             aliquid fuga?
           </p>
-          <button className="flex mx-auto md:mx-0 justify-center items-center border bg-orange-600 hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
+          <button className="flex mx-auto md:mx-0 justify-center items-center border bg-[#cd9c61] hover:bg-orange-800 duration-300 ease-in-out rounded-lg px-8 py-3 text-slate-50 font-bold">
             <Link href="/">Read more</Link>
             <span className="ml-2 flex justify-center items-center">
               <FaArrowRight size={12} className="text-white" />
