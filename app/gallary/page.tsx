@@ -13,7 +13,7 @@ const Gallary = () => {
       >
         <div className="mt-20 mx-4 md:mx:18 lg:mx-32 py-12">
           <h1 className="font font-bold text-2xl font-sans mb-10">
-            OUR{" "}
+            Our{" "}
             <span className="font-sans border-b bg-[#cd9c61] px-1 text-white">
               Gallary
             </span>
